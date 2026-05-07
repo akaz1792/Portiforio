@@ -27,7 +27,7 @@ document.getElementById("botao").addEventListener("click", async function () {
     status.className = "carregando";
 
     try {
-        const resposta = await fetch("http://localhost:3000/contato", {
+        const resposta = await fetch("https://portiforio-q4tv.onrender.com/contato", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
