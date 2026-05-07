@@ -1,3 +1,4 @@
+console.log("Script carregado com sucesso");
 
 document.getElementById("botao").addEventListener("click", async function () {
     const nome = document.getElementById("nome").value.trim();
