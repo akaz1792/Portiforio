@@ -98,6 +98,10 @@ app.post("/contato", async (req, res) => {
   );
 });
 
+app.get("/", (req, res) => {
+  res.send("Backend do portfólio rodando!");
+});
+
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
